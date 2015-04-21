@@ -1,4 +1,4 @@
-[![Travis-CI Build Status](https://travis-ci.org/Reinhard%20Simon/hello.png?branch=master)](https://travis-ci.org/Reinhard%20Simon/hello) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/Reinhard%20Simon/hello?branch=master)](https://ci.appveyor.com/project/Reinhard%20Simon/hello) [![Coverage Status](https://img.shields.io/coveralls/Reinhard%20Simon/hello.svg)](https://coveralls.io/r/Reinhard%20Simon/hello?branch=master)
+[![Travis-CI Build Status](https://travis-ci.org/c5sire/hello.png?branch=master)](https://travis-ci.org/c5sire/hello) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/c5sire/hello?branch=master)](https://ci.appveyor.com/project/c5sire/hello) [![Coverage Status](https://img.shields.io/coveralls/c5sire/hello.svg)](https://coveralls.io/r/c5sire/hello?branch=master)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 hello: A Good Title
