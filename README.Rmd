@@ -18,4 +18,10 @@ A README file is meant for new users of your package. Please include a short exa
 vignettes. The NEWS.md file is meant for prior users and should contain a progressive
 list of changes (new features, bug fixes, deprecated features, etc.)
 
-
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
