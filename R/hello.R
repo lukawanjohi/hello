@@ -2,7 +2,7 @@
 #'
 #' The typical hello world example.
 #'
-#' @param name a name; default is 'world'
+#' @param name a string; default is 'world'
 #' @return character a string; default is 'Hello, world!'
 #' @author Reinhard Simon
 #' @family example
@@ -10,5 +10,6 @@
 #' @export
 hello <- function(name = "world") {
   stopifnot(is.character(name))
+  
   paste0("Hello, ", name, "!")
 } 
