@@ -26,10 +26,10 @@ ui <- shinyUI(fluidPage(
 
 server <- shinyServer(function(input, output, session) {
   observe({
-    l_label <- input$lang
+    lang <- input$lang
     
     updateSliderInput(session, "bins",
-                      label = hello::dict()[["BINS"]][[input$lang]]
+                      label = hello::dict()[["BINS"]][[lang]]
     )
 
     output$distPlot <- hello::io_dist_plot(input, output)
