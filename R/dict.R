@@ -3,14 +3,13 @@
 #' A dictionary of terms
 #' 
 #' @return list
-#' @export
 dict <- function(){
   list(
     BINS = list(en = "Number of bins",
-                de = "Anzahl Behälter"
+                de = "Anzahl Beh\u00C4lter"
     ),
     HIST = list(en = "Histogram of",
-                de = "Histogramm für"
+                de = "Histogramm f\u00DCr"
     ),
     PLOT= list(en = "Plot",
                de = "Grafik"

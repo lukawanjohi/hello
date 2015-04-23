@@ -16,7 +16,7 @@ io_dist_plot <- function(input, output){
   lbl <- dict()[["HIST"]][[lang]]
   #lbl <- "Histogram of "
   
-  renderPlot({
+  shiny::renderPlot({
     x    <- faithful[, 2]  # Old Faithful Geyser data
     bins <- seq(min(x), max(x), length.out = input$bins + 1)
     
