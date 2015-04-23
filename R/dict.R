@@ -1,7 +1,3 @@
-#' dict
-#' 
-#' A dictionary of terms
-
 dict <- function(){
   list(
     BINS = list(en = "Number of bins",
