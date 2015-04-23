@@ -2,3 +2,7 @@
 
 export(hello)
 export(hello_world)
+export(io_dist_plot)
+export(ui_bins)
+export(ui_dict)
+export(ui_dist_plot)
