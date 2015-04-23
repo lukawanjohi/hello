@@ -29,7 +29,7 @@ server <- shinyServer(function(input, output, session) {
     lang <- input$lang
     
     updateSliderInput(session, "bins",
-                      label = hello::dict()[["BINS"]][[lang]]
+                      label = hello::ui_dict()[["BINS"]][[lang]]
     )
 
     output$distPlot <- hello::io_dist_plot(input, output)

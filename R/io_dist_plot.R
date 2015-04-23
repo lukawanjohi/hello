@@ -13,7 +13,7 @@ io_dist_plot <- function(input, output){
     lang = input$lang
   }
   
-  lbl <- dict()[["HIST"]][[lang]]
+  lbl <- ui_dict()[["HIST"]][[lang]]
   #lbl <- "Histogram of "
   
   shiny::renderPlot({

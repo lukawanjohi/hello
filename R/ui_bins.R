@@ -8,7 +8,7 @@
 #' @export
 ui_bins <- function () {
   shiny::sliderInput("bins",
-                     dict()[["BINS"]][["en"]],
+                     ui_dict()[["BINS"]][["en"]],
                      min = 1,
                      max = 50,
                      value = 30)
