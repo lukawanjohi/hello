@@ -15,3 +15,4 @@ BugReports: http://github.com/c5sire/hello/issues
 Suggests: knitr,
     testthat
 VignetteBuilder: knitr
+Encoding: UTF-8
