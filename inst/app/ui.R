@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   # Sidebar with a slider input for the number of bins
   sidebarLayout(
     sidebarPanel(
-      hello::ui_nbins()
+      hello::ui_bins()
     ),
     
     # Show a plot of the generated distribution

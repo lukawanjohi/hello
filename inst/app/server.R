@@ -11,6 +11,8 @@ shinyServer(function(input, output) {
   #  1) It is "reactive" and therefore should re-execute automatically
   #     when inputs change
   #  2) Its output type is a plot
+  observe({
+    output$distPlot <- hello::io_dist_plot(input, output)
+  })
   
-  output$distPlot <- hello::io_dist_plot(input, output)
 })
